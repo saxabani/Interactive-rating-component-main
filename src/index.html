@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <!-- Main CSS file output of tailwindcss and devcode -->
+  <link rel="stylesheet" href="output.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Main script file -->
+   <script src="main.js" defer></script>
+
+</head>
+
+<body class="flex justify-center items-center min-h-screen bg-DarkBlue">
+
+  <!-- Rating state start -->
+  <form onsubmit="return false" class="w-96 bg-VeryDarkBlue text-white shadow-2xl p-8 rounded-xl">
+  <div class="icon bg-DarkBlue w-10 h-10 rounded-full flex justify-center items-center mb-8">
+    <img src="../images/icon-star.svg" alt="Star Icon">
+  </div>
+  <h1 class="font-medium text-2xl mb-0">How did we do?</h1>
+
+  <p class="text-LightGrey text-base leading-6 my-5">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+  <ul class="flex items-center justify-between mb-4">
+    <li><button type="button" class="item" value="1">1</button></li>
+    <li><button type="button" class="item" value="2">2</button></li>
+    <li><button type="button" class="item" value="3">3</button></li>
+    <li><button type="button" class="item" value="4">4</button></li>
+    <li><button type="button" class="item" value="5">5</button></li>
+  </ul>
+
+  <button type="submit" class="submit w-full rounded-full text-VeryDarkBlue py-2 font-bold uppercase tracking-widest bg-orange active:bg-white">Submit</button>
+
+</form>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+  <div class="thank-you hidden w-96 bg-VeryDarkBlue text-white shadow-2xl p-8 rounded-xl text-center ">
+    <img src="../images/illustration-thank-you.svg" alt="illustration thank you" class="mx-auto">
+
+    <p class="text-orange mt-6 bg-DarkBlue w-fit px-3 rounded-full mx-auto py-1.5">You selected <span class="rating"></span> out of 5</p>
+
+    <p class="mt-8 mb-4 font-medium text-2xl">Thank you!</p>
+
+    <p class="text-LightGrey">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+  </div>
+
+  <!-- Thank you state end -->
+</body>
+</html>

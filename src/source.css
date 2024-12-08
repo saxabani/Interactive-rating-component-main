@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .item {
+        @apply w-12 h-12 bg-DarkBlue flex justify-center items-center rounded-full hover:bg-white hover:text-DarkBlue cursor-pointer focus:bg-orange focus:text-DarkBlue;
+    }
+}

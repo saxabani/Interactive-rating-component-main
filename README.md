@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution link](https://your-solution-url.com)
+- Solution URL: [Solution link](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-main-tailwindcss-html-ge6IWaTwz2)
 - Live Site URL: [Live link](https://saxabani.github.io/Interactive-rating-component-main/src/index.html)
 
 ## My process

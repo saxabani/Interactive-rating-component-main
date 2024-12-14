@@ -57,4 +57,4 @@ I want to use this framework with a lot of projects, use it as a dependencie mak
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/saxabani)
